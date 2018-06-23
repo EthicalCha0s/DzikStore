@@ -1,0 +1,102 @@
+      .bg {    
+    background-image: url("http://localhost/images/background.png");        
+    height: 100%;    
+    background-position: center;
+    background-repeat: repeat-y;
+	
+    
+}
+	  body, html {
+    height: 100%;
+    margin: 0;
+	overflow:hidden;
+}
+	  div.container {
+        width: 100%;
+        margin: 0px;
+        border: 0px #ff8000;
+        line-height: 150%;
+		font-family:Arial;
+      }
+
+      div.header, div.footer {
+        padding: 0.5em;
+        color: white;
+        background-color: #ff8000;
+        text-align: left;
+		
+      }
+	  
+	  table{
+		  border:1px;
+		  border-color:#ff8000;
+	  }
+	  
+
+      h1.header {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+		float:left;
+      }
+
+      div.left {
+        float: left;
+        width: 190px;
+        margin: 0;
+        padding: 0em;
+        text-align: center;
+      }
+
+      div.content {
+		overflow:scroll;
+        margin-left: 190px;
+        border-left: 1px;
+		border-color: #ff8000;
+        padding: 1em;
+        text-align: left;
+        height: 100vh;
+      }
+	  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+      }
+	  a.shop:link, a.shop:visited {
+        display: block;
+        text-align: center;
+        width: 190px;
+		height:50px;
+        background-color: #ff9900;
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 4px;
+		z-index:1;
+		border-bottom: 1px #ff8000;
+      }
+	  a.shop:hover, a.shop:active {
+        background-color: #ff8000;
+      }
+
+      a.nav:link, a.nav:visited {
+        display: block;
+        text-align: center;
+        width: 190px;
+		height:50px;
+        background-color: #ff9900;
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 4px;
+		z-index:1;
+		border-bottom: 1px #ff8000;
+      }
+	  li.top{
+		  float:right;
+	  }
+
+      a.nav:hover, a.nav:active {
+        background-color: #ff8000;
+      }
