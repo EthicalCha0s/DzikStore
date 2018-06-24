@@ -1,4 +1,5 @@
 <?php
+    error_reporting(0);
 	session_start();		
 	if ($_SESSION[ 'username' ]!=''){
 		$loggedin= "1";
@@ -57,11 +58,10 @@
       <li><a class="nav" href="games.php">Games</a></li>
 	  <li><a class="nav" href="dvd.php">DVDs</a></li>
 	  <?php
-	  if($loggedin == "1"){
-	   $username = $_SESSION['username'];
+	  $username = $_SESSION['username'];
 	  if ($username==100 || $username==101){
 		  echo"<li><a class=\"nav\" href=\"database.php\">Database</a></li>";
-	  }}
+	  }
 	  ?>
     </ul>
       </div>
