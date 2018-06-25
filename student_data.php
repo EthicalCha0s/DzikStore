@@ -51,7 +51,7 @@ $student_inventory = [
 1003,
 28.99,
 "Colchester",
-30,
+300,
 18);','INSERT INTO inventory VALUES(
 "AA01-018",
 "Halo 3",
@@ -61,7 +61,7 @@ $student_inventory = [
 1003,
 15.54,
 "Colchester",
-20,
+117,
 12 );','INSERT INTO inventory VALUES(
 "AA01-023",
 "Tron",
@@ -84,11 +84,5 @@ $student_inventory = [
 6,
 9);'
 ];
-
-# The above adds two hypothetical books to your database. You need to change
-# this so that it adds your two books, two CDs two DCDs and two games.
-#
-# Not that each INSERT is a single-quote delimited string, ends in a semi-colon
-# and has commas between the arguments.
 
 ?>
