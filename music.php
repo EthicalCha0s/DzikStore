@@ -1,5 +1,5 @@
 <?php
-    error_reporting(0);
+        error_reporting(0);
 	session_start();		
 	if ($_SESSION[ 'username' ]!=''){
 		$loggedin= "1";
@@ -69,7 +69,7 @@
 
       <div class="content">
          <?php
-		 $dbname = 'bd17671'; # Change to your username
+         $dbname = 'bd17671'; # Change to your username
          $dbuser = 'root';
          $dbpass = '';
          $dbhost = 'localhost';
