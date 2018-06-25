@@ -69,8 +69,8 @@
       <div class="content">
          <?php
 		 $dbname = 'bd17671'; # Change to your username
-$dbuser = 'bd17671';
-$dbpass = 'obscure';
+$dbuser = 'root';
+$dbpass = '';
 $dbhost = 'localhost';
 
 $search = $_GET['searchbox'];
